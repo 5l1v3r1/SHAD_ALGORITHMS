@@ -46,7 +46,7 @@ namespace brackets {
         return index_of_open == index_of_closed;
     }
 
-    bool is_right_bracket_sequence(string bracket_sequence,
+    bool is_right_bracket_sequence(const string& bracket_sequence,
         int & number_of_symbols_in_nearly_right_sequence) {
             stack<char> open_brackets_stack;
 
